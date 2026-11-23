@@ -32,7 +32,7 @@ require (
 	google.golang.org/api v0.307.0
 	google.golang.org/genai v1.76.0
 	google.golang.org/genproto/googleapis/api v0.0.0-20260928230214-8a89bd6388cc
-	google.golang.org/grpc v1.84.0
+	google.golang.org/grpc v1.85.0
 	google.golang.org/protobuf v1.36.12
 	gopkg.in/yaml.v3 v3.0.1
 	gorm.io/gorm v1.31.2
@@ -43,6 +43,9 @@ require (
 require github.com/hashicorp/golang-lru/v2 v2.0.7
 
 require (
+	cloud.google.com/go/logging v1.20.0 // indirect
+	cloud.google.com/go/trace v1.17.0 // indirect
+	github.com/aws/smithy-go v1.28.2 // indirect
 	github.com/bahlo/generic-list-go v0.2.0 // indirect
 	github.com/buger/jsonparser v1.1.2 // indirect
 	github.com/coder/websocket v1.8.15 // indirect
@@ -62,20 +65,20 @@ require (
 )
 
 require (
-	cel.dev/expr v0.25.2 // indirect
+	cel.dev/expr v0.25.3 // indirect
 	cloud.google.com/go/auth v0.24.1 // indirect
 	cloud.google.com/go/auth/oauth2adapt v0.3.0 // indirect
 	cloud.google.com/go/compute/metadata v0.10.0 // indirect
-	cloud.google.com/go/iam v1.12.0 // indirect
+	cloud.google.com/go/iam v1.13.0 // indirect
 	cloud.google.com/go/longrunning v1.4.0
-	cloud.google.com/go/monitoring v1.30.0 // indirect
+	cloud.google.com/go/monitoring v1.31.0 // indirect
 	github.com/GoogleCloudPlatform/opentelemetry-operations-go/exporter/metric v0.57.0 // indirect
 	github.com/GoogleCloudPlatform/opentelemetry-operations-go/internal/resourcemapping v0.57.0 // indirect
 	github.com/cenkalti/backoff/v5 v5.0.3 // indirect
 	github.com/cespare/xxhash/v2 v2.3.0 // indirect
 	github.com/cncf/xds/go v0.0.0-20260202195803-dba9d589def2 // indirect
 	github.com/dustin/go-humanize v1.0.1 // indirect
-	github.com/envoyproxy/go-control-plane/envoy v1.37.0 // indirect
+	github.com/envoyproxy/go-control-plane/envoy v1.40.1-0.20261014170222-9c4befd3c419 // indirect
 	github.com/envoyproxy/protoc-gen-validate v1.3.3 // indirect
 	github.com/felixge/httpsnoop v1.1.0 // indirect
 	github.com/glebarez/go-sqlite v1.21.2 // indirect
@@ -96,15 +99,15 @@ require (
 	github.com/segmentio/asm v1.1.3 // indirect
 	github.com/segmentio/encoding v0.5.4 // indirect
 	github.com/spf13/pflag v1.0.10 // indirect
-	github.com/spiffe/go-spiffe/v2 v2.8.1 // indirect
+	github.com/spiffe/go-spiffe/v2 v2.8.2 // indirect
 	github.com/tidwall/gjson v1.19.0 // indirect
 	github.com/tidwall/match v1.2.0 // indirect
 	github.com/tidwall/pretty v1.2.1 // indirect
 	github.com/tidwall/sjson v1.2.5 // indirect
 	github.com/yosida95/uritemplate/v3 v3.0.2 // indirect
 	go.opentelemetry.io/auto/sdk v1.2.1 // indirect
-	go.opentelemetry.io/contrib/instrumentation/google.golang.org/grpc/otelgrpc v0.70.0 // indirect
-	go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp v0.70.0 // indirect
+	go.opentelemetry.io/contrib/instrumentation/google.golang.org/grpc/otelgrpc v0.71.0 // indirect
+	go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp v0.71.0 // indirect
 	go.opentelemetry.io/otel/exporters/otlp/otlptrace v1.47.0 // indirect
 	go.opentelemetry.io/otel/metric v1.47.0 // indirect
 	go.opentelemetry.io/otel/sdk/log v1.47.0
@@ -114,7 +117,7 @@ require (
 	golang.org/x/sys v0.49.0 // indirect
 	golang.org/x/text v0.43.0 // indirect
 	golang.org/x/time v0.16.0 // indirect
-	google.golang.org/genproto v0.0.0-20260715232425-e75dac1f907d // indirect
+	google.golang.org/genproto v0.0.0-20260921155816-b14227669459 // indirect
 	google.golang.org/genproto/googleapis/rpc v0.0.0-20261019180522-ce908d29299b // indirect
 	modernc.org/libc v1.67.6 // indirect
 	modernc.org/mathutil v1.7.1 // indirect
